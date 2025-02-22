@@ -48,7 +48,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 .modal-content {
-    background-color: #fefefe;
+    background-color: #000000;
     margin: auto;
     padding: 20px;
     max-width: 300px;
@@ -69,7 +69,7 @@ body {
     height: auto;
 }
 .close {
-    color: #aaaaaa;
+    color: #ffffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
