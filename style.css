@@ -2,37 +2,12 @@ body {
     font-family: Arial, sans-serif;
     font-size: medium;
     color: #ffffff;
-    background-color: #294a96;
+    background: rgb(48,100,159);
+    background: radial-gradient(circle, rgba(48,100,159,1) 0%, rgb(67, 82, 117) 60%);
     text-align: center;
     margin: 0;
     padding: 0;
-    background: linear-gradient(179deg, #404040, #294a96, #483a88);
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    -o-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
     height: 100vh;
-}
-@-webkit-keyframes AnimationName {
-    0%{background-position:50% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:50% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:50% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:50% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:50% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:50% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:50% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:50% 0%}
 }
 .modal {
     display: none;
